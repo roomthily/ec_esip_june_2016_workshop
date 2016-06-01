@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Earthcube/ESIP Software Assessment Workshop</title>
+    <description>Draft guidelines specific to the EC workshop, reorganized based on EC priorities and clarity.
+</description>
+    <link>http://yourdomain.com/ec_esip_june_2016_workshop/</link>
+    <atom:link href="http://yourdomain.com/ec_esip_june_2016_workshop/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Wed, 01 Jun 2016 00:30:26 -0600</pubDate>
+    <lastBuildDate>Wed, 01 Jun 2016 00:30:26 -0600</lastBuildDate>
+    <generator>Jekyll v3.1.6</generator>
+    
+  </channel>
+</rss>

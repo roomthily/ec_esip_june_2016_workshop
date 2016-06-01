@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Earthcube/ESIP Software Assessment Workshop</title>
+  <meta name="description" content="Draft guidelines specific to the EC workshop, reorganized based on EC priorities and clarity.
+">
+
+  <link rel="stylesheet" href="/ec_esip_june_2016_workshop/css/main.css">
+  <link rel="canonical" href="http://yourdomain.com/ec_esip_june_2016_workshop/rrl_evaluation/Extensibility.html">
+  <link rel="alternate" type="application/rss+xml" title="Earthcube/ESIP Software Assessment Workshop" href="http://yourdomain.com/ec_esip_june_2016_workshop/feed.xml">
+
+  <script src="https://use.fontawesome.com/204e8e8e60.js"></script>
+</head>
+
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/ec_esip_june_2016_workshop/">Earthcube/ESIP Software Assessment Workshop</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        <a class="page-link" href="/ec_esip_june_2016_workshop/about/">About</a>
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="table-content rrl">
+        <h1></h1>
+        <a href="/ec_esip_june_2016_workshop/rrl_evaluation/">return to list</a>
+      
+        <table class="table table-bordered table-hover table-condensed">
+<thead><tr><th title="Field #1">RRL</th>
+<th title="Field #2">Criteria</th>
+</tr></thead>
+<tbody><tr><td align="right">1</td>
+<td>No ability to extend or modify program behavior. Source code is not available; execution parameters cannot be changed, and/or it is not possible to extend the functionality of the software, even for application contexts similar to the original application domain.</td>
+</tr>
+<tr><td align="right">2</td>
+<td>Very difficult to extend the software system, even for application contexts similar to the original application domain. The software was not designed with extensibility in mind. While some level of documentation and/or source code is available, it is extremely difficult to extend the software. For cases where source code is available, the logical flow of code may be hard to follow, with few (if any) comments, and little to no cohesion.</td>
+</tr>
+<tr><td align="right">3</td>
+<td>Extending the software is difficult, even for application contexts similar to the original application domain. Minimal consideration to extensibility is included in the design, through use of methods such as object-oriented design or other tools which provide logical cohesion. Where source code is available, the software has some structure, but may have a high number of independent logical paths, minimal comments and documentation, and/or a low degree of cohesion.</td>
+</tr>
+<tr><td align="right">4</td>
+<td>Some extensibility is possible through configuration changes and/or moderate software modification. Consideration to extensibility to some range of application contexts is included in the design though means such as (a) use of configuration files, (b) isolation of configuration parameters and constants in clearly identified sections of source code (distinct from logic and display code), (c) some documentation of the effects of changes to these parameters and the allowed values for these parameters, and/or (d) effective use of programming practices designed to enable reuse, such as object oriented design.</td>
+</tr>
+<tr><td align="right">5</td>
+<td>Consideration for future extensibility designed into the system for a moderate range of application contexts; extensibility approach defined and at least partially documented. The procedures for extending the software are defined, whether by source code modification (e.g., object-oriented design) or through the provision of some type of extension functionality (e.g., callback hooks or scripting capabilities). Where source code modification is part of the extension plan, the software is well-structured, has a moderate to high level of cohesion, and has configuration elements clearly separated from logic and display elements. Internal and external documentation are sufficient to allow an experienced programmer to understand program flow and logic with moderate effort.</td>
+</tr>
+<tr><td align="right">6</td>
+<td>Designed to allow extensibility across a moderate to broad range of application contexts, provides many points of extensibility, and a thorough and detailed extensibility plan exists. The extensibility capability for the software is well defined, sufficient to enable an experienced developer generally familiar with the project to extend the software. That documentation should include clear information about the range of application contexts to which the software can be extended as well as potential limitations on expansion.</td>
+</tr>
+<tr><td align="right">7</td>
+<td>Demonstrated to be extensible by an external development team in a similar context. The software has been extended and applied to a similar application context to the original. This extension may have been done by an external team using extension documentation, by may have involved substantial assistance from the original development team members.</td>
+</tr>
+<tr><td align="right">8</td>
+<td>Demonstrated extensibility on an external program, clear approach for modifying and extending features across a broad range of application domains. The software has been extended by at least one group of users outside the original development group using existing documentation and with no assistance from the original development team.</td>
+</tr>
+<tr><td align="right">9</td>
+<td>Demonstrated extensibility in multiple scenarios, provides specific documentation and features to build extensions which are used across a range of domains by multiple user groups. The software is regularly extended externally by users across multiple applications using available documentation. There may be a library available of user-generated content for extensions.</td>
+</tr>
+</tbody></table>
+      
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Earthcube/ESIP Software Assessment Workshop</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li>Earthcube/ESIP Software Assessment Workshop</li>
+          <li><a href="http://github.com/roomthily/ec_esip_june_2016_workshop">Fork this repo</a></li>
+          <li><a href="https://github.com/roomthily/ec_esip_june_2016_workshop/issues">Add an issue</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        <ul class="social-media-list">
+          
+
+          
+        </ul>
+      </div>
+
+      <div class="footer-col footer-col-3">
+        <p>Draft guidelines specific to the EC workshop, reorganized based on EC priorities and clarity.
+</p>
+      </div>
+    </div>
+
+  </div>
+
+</footer>
+
+
+    <script async defer src="https://hypothes.is/embed.js"></script>
+
+  </body>
+  
+</html>  
+
