@@ -12,7 +12,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Draft guidelines specific to the EC workshop, reorganized
   based on EC priorities and clarity.
 baseurl: "/ec_esip_june_2016_workshop" # the subpath of your site, e.g. /blog
-url: "http://yourdomain.com" # the base hostname & protocol for your site
+url: "http://roomthily.github.io" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
